@@ -1,0 +1,82 @@
+1. A U B (Union),,,,,
+"facultyid, firstname, lastname",,,,,
+301,Messier,Jacqualyn,,,
+302,Machuca,Rebbeca,,,
+303,Krull,Manna,,,
+304,Orona,Jamiel,,,
+305,Hardison,Darroll,,,
+306,Olivier,Courtnie,,,
+307,Charette,Stephan,,,
+308,Grand,Roshelle,,,
+309,Cassity,Sandy,,,
+310,Clarke,Terea,,,
+328,Blue,Dung,,,
+329,Dane,Latishia,,,
+330,Naccarato,Naureen,,,
+331,Mayle,Sateria,,,
+332,Patten,Kristel,,,
+,,,,,
+2. A ? B ((Union All)),,,,,
+"facultyid, firstname, lastname",,,,,
+301,Messier,Jacqualyn,,,
+301,Messier,Jacqualyn,,,
+302,Machuca,Rebbeca,,,
+302,Machuca,Rebbeca,,,
+303,Krull,Manna,,,
+303,Krull,Manna,,,
+304,Orona,Jamiel,,,
+304,Orona,Jamiel,,,
+305,Hardison,Darroll,,,
+305,Hardison,Darroll,,,
+306,Olivier,Courtnie,,,
+307,Charette,Stephan,,,
+308,Grand,Roshelle,,,
+309,Cassity,Sandy,,,
+310,Clarke,Terea,,,
+328,Blue,Dung,,,
+329,Dane,Latishia,,,
+330,Naccarato,Naureen,,,
+331,Mayle,Sateria,,,
+332,Patten,Kristel,,,
+,,,,,
+3. A - B (Minus),,,,,
+"facultyid, firstname, lastname",,,,,
+328,Blue,Dung,,,
+329,Dane,Latishia,,,
+330,Naccarato,Naureen,,,
+331,Mayle,Sateria,,,
+332,Patten,Kristel,,,
+,,,,,
+4. A ? B (Natural Join),,,,,
+"facultyid, firstname, lastname",,,,,
+301,Messier,Jacqualyn,,,
+302,Machuca,Rebbeca,,,
+303,Krull,Manna,,,
+304,Orona,Jamiel,,,
+305,Hardison,Darroll,,,
+,,,,,
+5. A ]? B (Left Outer Join),,,,,
+"facultyid, firstname, lastname, facultyid, firstname, lastname",,,,,
+301,Messier,Jacqualyn,301,Messier,Jacqualyn
+302,Machuca,Rebbeca,302,Machuca,Rebbeca
+303,Krull,Manna,303,Krull,Manna
+304,Orona,Jamiel,304,Orona,Jamiel
+305,Hardison,Darroll,305,Hardison,Darroll
+328,Blue,Dung,,,
+329,Dane,Latishia,,,
+330,Naccarato,Naureen,,,
+331,Mayle,Sateria,,,
+332,Patten,Kristel,,,
+,,,,,
+6. A?[ B (Right Outer Join),,,,,
+"facultyid, firstname, lastname, facultyid, firstname, lastname",,,,,
+301,Messier,Jacqualyn,301,Messier,Jacqualyn
+302,Machuca,Rebbeca,302,Machuca,Rebbeca
+303,Krull,Manna,303,Krull,Manna
+304,Orona,Jamiel,304,Orona,Jamiel
+305,Hardison,Darroll,305,Hardison,Darroll
+,,,306,Olivier,Courtnie
+,,,307,Charette,Stephan
+,,,308,Grand,Roshelle
+,,,309,Cassity,Sandy
+,,,310,Clarke,Terea
